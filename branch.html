@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Insees.nits</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="">
+
+<style type="text/css">
+	body {
+    margin: 2;
+    padding: 0;
+    background-size: cover;
+    color: white;
+    }
+.bg{
+     animation: slide 5s ease-in-out infinite alternate;
+     background: linear-gradient(-20deg, #00FFFF 50%, #FFFFFF 50%);
+     bottom: 0;
+     left:-110%;
+     opacity: .5;
+      position: absolute;
+      right:20%;
+      top: 0;;
+      z-index: -1;
+      background-size: cover;
+}
+.bg2{ 
+        animation-direction: alternate-reverse;
+        animation-duration: 8s ;
+        background-size: cover;
+  
+     }
+     .bg3{
+            animation-duration: 8s ;
+            background-size: cover;
+  
+    }
+
+  @keyframes slide{
+     0%{
+         transform: translateX(-25%);
+     }
+     100%{
+         transform: translateX(25%);
+     }
+  }
+                    
+
+#first ul{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+ 
+}
+
+#first ul li{
+    position: relative;
+    float: right;
+    margin: 0;
+    top: 0px;
+    width: 440px;
+    height: 25px;
+ background: midnightblue;
+    line-height: 13px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+
+}
+
+
+#second ul{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: "Courier New", Courier, monospace;
+
+}
+
+#second ul li{
+    position: relative;
+    float: right;
+    width: 189px;
+    height: 70px;
+ background: rgba(0,0,0,0.4);
+    line-height: 60px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+}
+a:hover{
+    background-color: midnightblue;
+}
+a{
+    color: #E0FFFF;
+    text-decoration: none;
+    text-decoration-color: white;
+}
+
+#branch{
+    border-style: double;
+
+    position: fixed;
+             color: black;
+            font-family: Lucida Console;
+            font-size: 3.1em;
+            text-transform: uppercase;
+            top: 291px;
+            left: 795px;
+            position: absolute;
+            transform: translate( -50%,-50%);
+            text-align: center;
+            padding: 48px;
+            width: 980px;
+            font-weight: bolder;
+            text-shadow: 3px 2px 2px #800000;
+}
+
+#logo img{
+    position: absolute;
+  top: 190px;
+  right: 1050px;
+  width: 230px;
+  height: 200px;
+
+
+}
+
+#about p.monospace{
+  font-family: "Courier New", Courier,monospace;
+  color: black;
+  position: absolute;
+  top: 410px;
+  font-size: 17px;
+  font-weight: bold;
+  text-align: justify;
+  width: 1150px;
+  left: 120px;
+  text-shadow: none;
+}
+
+
+
+    p.monospace{
+      position: absolute;
+        top: 600px;
+        width: 100%;
+        text-align: center;
+      font-family: "Lucide Console",Lucida,monospace;
+      font-size: 40px;
+      color: black;
+      text-shadow: 2px 2px yellow;
+    }
+
+    #a img{
+      position: absolute;
+      height: 140px;
+      width: 140px;
+      top: 735px;
+      left: 70px;
+      border-style: solid black;
+    }
+
+    #a p{
+      position: absolute;
+      top: 868px;
+      left: 75px;
+      height: 140px;
+      width: 140px;
+      color: black;
+
+    }
+
+    #b img{
+      position: absolute;
+      height: 140px;
+      width: 140px;
+      top: 735px;
+      left: 300px;
+      border-style: solid black;
+    }
+
+    #b p{
+      position: absolute;
+      height: 140px;
+      width: 140px;
+      top: 868px;
+      left: 302px;
+      color: black;
+
+    }
+
+     #b img{
+      position: absolute;
+      height: 140px;
+      width: 140px;
+      top: 735px;
+      left: 300px;
+      border-style: solid black;
+    }
+
+    #b p{
+      position: absolute;
+      height: 140px;
+      width: 140px;
+      top: 868px;
+      left: 302px;
+      color: black;
+
+    }
+
+     #c img{
+      position: absolute;
+      height: 140px;
+      width: 140px;
+      top: 735px;
+      left: 538px;
+      border-style: solid black;
+    }
+
+    #c p{
+      position: absolute;
+      height: 140px;
+      width: 140px;
+      top: 868px;
+      left: 540px;
+      color: black;
+
+    }
+
+     #d img{
+      position: absolute;
+      height: 140px;
+      width: 140px;
+      top: 735px;
+      left: 776px;
+      border-style: solid black;
+    }
+
+    #d p{
+      position: absolute;
+      height: 140px;
+      width: 140px;
+      top: 868px;
+      left: 778px;
+      color: black;
+
+    }
+
+    #e img{
+      position: absolute;
+      height: 140px;
+      width: 140px;
+      top: 735px;
+      left: 1014px;
+      border-style: solid black;
+    }
+
+    #e p{
+      position: absolute;
+      height: 140px;
+      width: 140px;
+      top: 868px;
+      left: 1016px;
+      color: black;
+
+    }
+
+
+    #f img{
+      position: absolute;
+      height: 140px;
+      width: 140px;
+      top: 1000px;
+      left: 70px;
+      border-style: solid black;
+    }
+
+    #f p{
+      position: absolute;
+      top: 1128px;
+      left: 75px;
+      height: 140px;
+      width: 140px;
+      color: black;
+
+    }
+
+    #g img{
+      position: absolute;
+      height: 140px;
+      width: 140px;
+      top: 1000px;
+      left: 308px;
+      border-style: solid black;
+    }
+
+    #g p{
+      position: absolute;
+      top: 1128px;
+      left: 313px;
+      height: 140px;
+      width: 140px;
+      color: black;
+
+    }
+
+    #h img{
+      position: absolute;
+      height: 140px;
+      width: 140px;
+      top: 1000px;
+      left: 546px;
+      border-style: solid black;
+    }
+
+    #h p{
+      position: absolute;
+      top: 1128px;
+      left: 551px;
+      height: 140px;
+      width: 140px;
+      color: black;
+
+    }
+
+    #i img{
+      position: absolute;
+      height: 140px;
+      width: 140px;
+      top: 1000px;
+      left: 784px;
+      border-style: solid black;
+    }
+
+    #i p{
+      position: absolute;
+      top: 1128px;
+      left: 789px;
+      height: 140px;
+      width: 140px;
+      color: black;
+
+    }
+
+     #j img{
+      position: absolute;
+      height: 140px;
+      width: 140px;
+      top: 1000px;
+      left: 1022px;
+      border-style: solid black;
+    }
+
+    #j p{
+      position: absolute;
+      top: 1128px;
+      left: 1027px;
+      height: 140px;
+      width: 140px;
+      color: black;
+
+    }
+
+    .main{
+    background-image: linear-gradient(to right, purple, indigo);
+    opacity: 0.9;
+    height:100%;
+    width:100%;
+    position:absolute; 
+    top: 1300px;
+}
+
+
+.main::before{
+    position:absolute ;
+    bottom:0;
+    display:block;
+    left:0;
+    width:100%;
+    height:150px;
+    top: 1300px;
+    content:'';
+    background-color:white;
+    clip-path: polygon(0 0, 0 100%, 100% 100%);
+}
+.main::after{
+    position:absolute ;
+    top: 1300px;
+    display:block;
+    right:0;
+    width:100%;
+    height:150px;
+    content:'';
+    background-color:white;
+    clip-path: polygon(100% 0%, 0 100%, 100% 100%);
+}
+
+
+    #events p.monospace{
+      position: absolute;
+        top: 1300px;
+        left: 20px;
+      font-family: "Lucide Console",Lucida,monospace;
+      font-size: 40px;
+      color: white;
+      width: 100%;
+      text-align: center; 
+      text-shadow: 1px 1px yellow;
+         }
+
+
+    #events p.crescendo{
+      color: black;
+      position: absolute;
+      top: 1430px;
+      left: 70px;
+      width: 380px;
+      height: 370px;
+      border-style: solid;
+      text-align: center;
+      font-size: 30px;
+      background-color: white;
+      border-radius:20px; 
+      text-decoration: underline;
+        box-shadow: 10px 10px mediumorchid;
+
+
+
+    }
+
+    #events p.Alpha_crescendo{
+      color: black;
+      left: 500px;
+      position: absolute;
+      top: 1430px;
+      width: 380px;
+      height: 370px;
+      border-style: solid;
+      text-align: center;
+      font-size: 30px;
+      background-color: white;
+      border-radius:20px; 
+      text-decoration: underline purple;
+        box-shadow: 10px 10px mediumorchid;
+    }
+
+    #events p.Abhyudaya{
+      color: black;
+      position: absolute;
+      top: 1430px;
+      left: 925px;
+      width: 380px;
+      height: 370px;
+      border-style: solid;
+      text-align: center;
+      font-size: 30px;
+      background-color: white;
+            border-radius:20px;
+                  text-decoration: underline;
+   box-shadow: 10px 10px mediumorchid;
+
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+ <div class ="bg"> </div>
+         <div class ="bg bg2 "> </div>
+          <div class ="bg bg3"> </div>
+
+
+	<div id="first">
+<ul class="first">
+<li><a href="https://www.facebook.com/inseessociety/about/?ref=page_internal">  facebook  </a><i class="fa fa-facebook" aria-hidden="true"></i></li>
+<li>  091100 93493  <i class="fa fa-phone" aria-hidden="true"></i></li>
+<li class="email">  inseessociety.nits@gmail.com   <i class="fa fa-envelope-o" aria-hidden="true"></i></li>
+</ul>
+</div>
+
+<nav>
+<div id="second">
+<ul class="monospace">
+<li><a href="#6">Scope</a></li>
+<li><a href="#5">Gallery</a></li>
+<li><a href="#4">Members</a></li>
+<li><a href="#3">Events</a></li>
+<li><a href="#2">Faculty</a></li>
+<li><a href="#1">About us</a></li>
+<li>INSEES</li>
+</ul>
+</div>
+</nav>
+<div id="branch"> ELECTRONICS AND INSTRUMENTATION SOCIETY, NIT SILCHAR</div>
+<div id="logo"><img src="https://lh3.googleusercontent.com/tf112HWt7_kvREeRiNSwHQNxBlFYXb-d2kT1UEEKlzSdTh4QfZUIkAr6_5_ijjNbKZsygCXsCJbPc61opFpl_0JznhtvSg20i1t_wAJROybD89Bz06dhrW-VWXnFI7nfjO0zsDmlsw=w2400" alt=""></div>
+
+<div id="about">
+
+	<p class="monospace"> INSEES (Society of Instrumentation and Electronics Engineering), comprising of the faculty members and student and aims to play a pivotal role in the development of students as engineers by various out-of-curriculum and extra-curricular activities. The INSEES aims to be an active organization of the EIE department at NITS which promotes the interests of the members. Electronics and instrumentation engineering branch is open in 2009 in NIT Silchar. The branch offers eight semester (four year) B. Tech programme in Electronics and Instrumentation Engineering covering modern instrumentation, industrial instrumentation, electronics, computer applications, and software technologies.</p></div>
+</header>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<a id="2">
+<p class="monospace"><b>FACULTIES</b></p>
+
+	<div id="a">
+		<img src="http://www.nits.ac.in/admin/uploads/SHL%202019_04-10-19-16-03-37.jpg" />
+		<p> Dr. Shahedul Haque Laskar<br>
+			<strong>Associate Professor </strong></p>
+	</div>
+
+	<div id="b">
+		<img src=http://www.nits.ac.in/admin/uploads/Passport%20Profile%20Pic_20-02-16-18-13-24.jpg />
+		<p> Dr. Rajdeep Dasgupta<br>
+			<strong>Assistant Professor </strong></p>
+
+	<div id="c">
+		<img src=http://www.nits.ac.in/admin/uploads/nit-website-400_14-07-18-08-40-23.jpg />
+		<p> Dr. Lalu Seban<br>
+			<strong>Assistant Professor </strong></p>
+	</div>
+
+	<div id="d">
+		<img src=http://www.nits.ac.in/admin/uploads/jupitara_hazarika-2393510430.jpg />
+		<p> Dr. Jupitara Hazarika<br>
+			<strong>Assistant Professor </strong></p>
+	</div>
+
+	<div id="e">
+		<img src=http://www.nits.ac.in/admin/uploads/1_28-05-20-12-31-01.jpg />
+		<p> Dr. Sudarsan Sahoo<br>
+			<strong>Assistant Professor </strong></p>
+	</div>
+
+	<div id="f">
+		<img src=http://www.nits.ac.in/admin/uploads/Munmun_Khanra_23-04-15-15-25-42.jpg />
+		<p> Dr. Mummun Khanra<br>
+			<strong>Assistant Professor </strong></p>
+	</div>
+
+	<div id="g">
+		<img src=http://www.nits.ac.in/admin/uploads/Arun_Kr_Sunaniya_23-04-15-15-25-59.jpg />
+		<p> Dr. Arun Kumar Sunaniya<br>
+			<strong>Assistant Professor </strong></p>
+	</div>
+
+	<div id="h">
+		<img src=http://www.nits.ac.in/admin/uploads/Manas_Kr_Bera_02-08-16-16-53-08.jpg />
+		<p> Dr. Manas Kumar Bera<br>
+			<strong>Assistant Professor </strong></p>
+	</div>
+
+	<div id="i">
+		<img src=http://www.nits.ac.in/admin/uploads/11428009_894583290584586_5979851898097651630_n_05-07-18-17-30-33.jpg />
+		<p> Dr. Ranjay Hazra<br>
+			<strong>Assistant Professor </strong></p>
+	</div>
+
+	<div id="j">
+		<img src=http://www.nits.ac.in/admin/uploads/Koena_Mukherjee_10-01-19-14-55-59.jpg />
+		<p> Dr. Koena Mukherjee<br>
+			<strong>Assistant Professor </strong></p>
+	</div>
+</div>
+</a>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<a id="3">
+<div class="main"></div>
+<div id="events">
+	<p class="monospace"><b>EVENTS</b></p>
+
+	<p class="crescendo"> CRESCENDO</p>
+	<p class="Alpha_crescendo"> ALPHA CRESCENDO </p>
+	<p class="Abhyudaya">ABHYUDAYA</p>
+</div>
+</a>
+
+</body>
+</html>
+
